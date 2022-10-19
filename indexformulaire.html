@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Formulaire d'inscription a une Competion Scolaire">
+    <title >Formulaire d'inscription a une Competion Scolaire</title>
+    <link rel="stylesheet" type="text/css" href="styleformulaire.css">
+  </head>  
+  <body>
+    <div class="container">
+      <div class="survey">
+        <h2> <span> Formulaire d'inscription a une Competion Scolaire </span></h2>
+        <p id="description"><em>La compétition favorise le développement de nouvelles habiletés personnelles et interpersonnelles (ex. : habiletés de résolution de problèmes, de gestion du stress, du travail d'équipe); Elle permet l'apprentissage d'une saine attitude face à la victoire et la défaite; La compétition favorise la confiance en soi.</em></p>
+        <form id="survey-form" action="url-where-you-want-to-submit-form-data" autocomplete="on">
+          <label id="name-label" for="name">Votre nom  :</label><br>
+          <input type="text" id="name" name="name" placeholder="Votre nom " required><br>
+          <label id="name-label" for="name">Votre prénom  :</label><br>
+          <input type="text" id="name" name="name" placeholder="Votre prénom" required><br>
+          <label id="email-label" for="email">Votre date de naissance :</label><br>
+          <td><input type="date" size="44"  id="start" name="trip-start"
+                                            value="MM/JJ/AAAA" 
+                                            min="1990-01-01" max="2022-09-14"></td>
+          <p>La compétition qui vous intéresse :</p>
+            <input type="checkbox" id="1" name="Athlétique" value="Athlétique">
+            <label for="Athlétique"> Athlétique</label><br>
+            
+            <input type="checkbox" id="2" name="Dictée" value="Dictée">
+            <label for="Dictée"> Dictée</label><br>
+            
+            <input type="checkbox" id="3" name="Artistique" value="Artistique">
+            <label for="Artistique"> Artistique</label><br>
+            
+            <input type="checkbox" id="4" name="Cheerleading" value="Cheerleading">
+            <label for="Cheerleading"> Cheerleading</label><br>
+          <br><label id="number-label" for="number">Le profeseur qui vous a préparé(e) à la compétition :</label><br>
+          <input type="text" id="name" name="name" placeholder="Nom du profeseur" required><br>
+          <tr>
+            <th scope="row">Téléphone :</th><br>
+            <td><input type="password" name="" placeholder="*********" size="44" ></td><br>
+        </tr>
+        <tr>
+            <th scope="row">Personne de contact (tuteur légal) :</th><br>
+            <td><input type="text" name="t1" size="20" placeholder="Prénom"> <input type="text" name="t1" placeholder="Nom" size="18"></td><br>
+        </tr>
+        <tr>
+            <th scope="row">Téléphone de la personne de contact :</th>
+            <td><input type="password" name="" placeholder="*********" size="44"></td>
+        </tr>
+         <div class="info-text">
+            <label for="info">Vos questions sur la compétition :</label><br>
+            <textarea id="info" name="info" size="44"></textarea><br>
+          </div>
+          <div class="send">
+            <button id="submit" type="submit" value="submit" onclick="alert('Bien envoyé! Nous vous donnerons une réponse au plus vite. Merci')">Soumettre la demande participation à la compétition</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>    
+</html>
