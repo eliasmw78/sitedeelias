@@ -1,9 +1,12 @@
 body {
+	background-color: aqua;
 	border: solid purple;
 	margin-left: 25%;
 	width: 48.5%;
 }
 div {
+	
+	background-color: white;
 	margin-top: 10px;
 	border: 2px solid pink;
 	margin-bottom: 10px;
