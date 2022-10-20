@@ -1,0 +1,72 @@
+body{
+  font-family: 'Asar', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  background-color: grey;
+  background-image: url(https://img.freepik.com/photos-gratuite/papier-millimetre-lignes-grille-fond-texture-papier_63313-1761.jpg);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid rgb(247, 253, 255);
+  padding: 30px 0 30px 0;
+}
+.survey {
+  width: 800px;
+  border: 5px outset rgb(161, 161, 161);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  background-image: url(https://thumbs.dreamstime.com/b/animated-art-background-moving-pencil-drawing-slowly-52516619.jpg);
+}
+h1 {
+  line-height: 90px;
+  font-size: 40px;
+}
+h1,
+#description {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#description {
+  font-weight: 200;
+  text-shadow: 1px 1px 1px black;
+}
+#survey-form {
+  margin: 30px 0 50px 90px;
+}
+#name, #email, #number {
+  width: 530px;
+  height: 35px;
+}
+#dropdown {
+  width: 210px;
+  margin-left: 30px;
+}
+.info-text {
+  margin-top: 30px;
+}
+textarea {
+  width: 600px;
+  height: 120px;
+}
+#submit {
+  margin-top: 22px;
+  border-style: double;
+  background-color: rgba(59, 111, 111, 0.662);
+  font-weight: 700;
+  width: 150px; 
+}
+#submit:hover {
+  background-color: rgba(66, 196, 196, 0.815);
+}
+.send {
+  width: 600px;
+  text-align: center;
+}
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
