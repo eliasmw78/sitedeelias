@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+	text-align: center;
+}
+
+h1 {
+	color: green;
+	font-family: verdana;
+	font-size: 2em;
+}
+
+
+
+button {
+	color: green;
+	width: 300px;
+	border-style: double;
+	border-color: green;
+	border-width: 7px;
+	border-radius: 26px;
+	background-color: black;
+	padding: 15px 32px;
+	margin-top: 3px;
+	transition: all 0.5s;
+  	cursor: pointer;
+}
+
+button:hover {
+	color: white;
+	background-color: green;
+	border: 2px solid grey;
+	transition: all 0.5s;
+  	cursor: pointer;
+
+}
+
+table {
+	margin-left: 30%;
+	padding: 10px;
+
+}
+
+input {
+	margin-top: 10px;
+
+}
+select {
+	margin-top: 10px;
+
+}
+label {
+	color: green;
+	font-family: verdana ;
+	font-size: 20px;
+
+}
