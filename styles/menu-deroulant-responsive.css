@@ -51,47 +51,72 @@ nav li:hover .submenu{
 	color: #222538;
 	width: 270px;
 }
-.menu-html:hover{
-	border-top: 5px solid #e44d26;
-	background-color: rgba();(228, 77, 38, 0.15);
-}
-.menu-css:hover{
-	border-top: 5px solid #0070bb;
-	background-color: rgba();(000, 112, 192, 0.15);
+.menu-htmlcss:hover{
+	border-top: 5px solid orange;
+	background-color: orange;
 }
 .menu-js:hover{
-	border-top: 5px solid #f1dc4f;
-	background-color: rgba();(241, 211, 79, 0.15);
+	border-top: 5px solid yellow;
+	background-color: yellow;
 }
+.menu-base:hover{
+	border-top: 5px solid #blue;
+	background-color: blue;
 }
-.menu-contact:hover{
-	border-top: 5px solid #BBB;
-	background-color: rgba();(220, 220, 220, 0.15);
+.menu-php:hover{
+	border-top: 5px solid #green;
+	background-color: green;
+}
+.menu-mission:hover{
+	border-top: 5px solid #pink;
+	background-color: pink;
+}
+.menu-presentation:hover{
+	border-top: 5px solid #red;
+	background-color: red;
 }
 nav > ul > li:hover a{
 	padding: 15px 30px 20px 30px;
 }
-.menu-html .submenu{
-	background-color: rgb(230, 100, 40);
-}
-.menu-css .submenu{
-	background-color: rgb(000, 160, 240);
+.menu-htmlcss .submenu{
+	background-color: orange;
 }
 .menu-js .submenu{
-	background-color: rgb(251, 216, 99);
+	background-color: yellow;
+}
+.menu-base .submenu{
+	background-color: blue;
+}
+.menu-php .submenu{
+	background-color: green;
+}
+.menu-mission .submenu{
+	background-color: pink;
+}
+.menu-presentation .submenu{
+	background-color: red;
 }
 .submenu li:hover a{
 	color: #EEE;
 	font-weight: bold;
 }
-.menu-html .submenu li:hover{
-	background-color: rgb(210, 77, 60);
-}
-.menu-css .submenu li:hover{
-	background-color: rgb(000, 115, 200);
+.menu-htmlcss .submenu li:hover{
+	background-color: orange;
 }
 .menu-js .submenu li:hover{
-	background-color: rgb(200, 165, 75);
+	background-color: yellow;
+}
+.menu-base .submenu li:hover{
+	background-color: blue;
+}
+.menu-php .submenu li:hover{
+	background-color: green;
+}
+.menu-mission .submenu li:hover{
+	background-color: pink;
+}
+.menu-presentation .submenu li:hover{
+	background-color: red;
 }
 .menu-mobile{
 	display: none;
