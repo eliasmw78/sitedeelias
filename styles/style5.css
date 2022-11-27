@@ -5,7 +5,7 @@ body
 }
 h1
 {
-	color: #FA1D24;
+	color: red;
 	font-family: verdana;
 	font size: 2em;
 	margin-bottom: 2%;
@@ -21,7 +21,7 @@ input
 	margin-right:5%;
 	margin-top: 10%;
 	padding: 3%;
-	color: blue
+	color: red;
 }
 div
 {
@@ -38,7 +38,7 @@ button
 	border-radius: 26px;
 	text-align: center;
 	padding:15px 32px;
-	background-color: #FA1D24;
+	background-color: red;
 	width: 200px;
 	margin-top: 5px;
 	
@@ -46,7 +46,7 @@ button
 button:hover
 {
 	background-color: black;
-	color: #FA1D24;
+	color: red;
 	border: 2px solid;
-	border-color: #FA1D24
+	border-color: red
 }
