@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	text-align: center;
+}
+
+h1 {
+	color: darkslateblue;
+	font-family: verdana;
+	font-size: 2em;
+}
+
+div {
+	border: 2px solid darkslateblue;
+	border-radius: 26px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 35%;
+	padding: 8px;
+}
+
+button {
+	color: skyblue;
+	width: 300px;
+	border-style: double;
+	border-color: darkblue;
+	border-width: 7px;
+	border-radius: 26px;
+	background-color: black;
+	padding: 15px 32px;
+	margin-top: 3px;
+	transition: all 0.5s;
+  	cursor: pointer;
+}
+
+button:hover {
+	color: white;
+	background-color: darkblue;
+	border: 2px solid grey;
+	transition: all 0.5s;
+  	cursor: pointer;
