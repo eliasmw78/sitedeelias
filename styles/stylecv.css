@@ -1,6 +1,6 @@
 body {
-	background-color: aqua;
-	border: solid purple;
+	background-color: grey;
+	border: whitesmoke;
 	margin-left: 25%;
 	width: 40%;
 }
@@ -8,7 +8,7 @@ div {
 	
 	background-color: white;
 	margin-top: 10px;
-	border: 2px solid pink;
+	border: 2px whitesmoke;
 	margin-bottom: 10px;
 	width: 900px;
 	margin-left: 10px;
