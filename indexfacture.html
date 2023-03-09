@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="JS/index.js" async></script>
+    <title>PPE3 MISSION 3</title>
+  </head>
+  <body>
+    <form>
+
+        <div class="fh">
+            <h1><p id="souligner">FACTURE</p></h1>
+            <img src="images/imgbank.jpg">
+                <br><br>
+                    <input type="text" class="hg" placeholder="Nom de la compagnie">
+                <br>
+                    <input type="text" class="hg" placeholder="Adresse postale">
+                <br><br><br>
+                    <input type="text" class="hg" placeholder="Details du Contrat">
+                <br>
+                     <input type="text" class="hd" placeholder="Date">
+                <br><br>
+                    <input type="text" class="hd" placeholder="N° de Facture">
+                <br><br>
+        </div>    
+      
+        <div class="facturemid">
+            <div class="fmidg">
+                <br>
+                    <h2> Destinataire</h2>
+                    <input type="text" class="destinataire" placeholder="Nom">
+                    <input type="text" class="destinataire" placeholder="Nom de la société">
+                    <input type="text" class="destinataire" placeholder="Adresse postale">
+                    <input type="text" class="destinataire" placeholder="Téléphone">
+                    <input type="text" class="destinataire" placeholder="Email">
+            </div>
+      
+            <div class="fmidd"> Conditions de paiement, par exemple : dû dans X jours
+            <h2> Envoyez à</h2>
+                    <input type="text" class="envoyeza" placeholder="Nom">
+                    <input type="text" class="envoyeza" placeholder="Nom de la société">
+                    <input type="text" class="envoyeza" placeholder="Adresse postale">
+                    <input type="text" class="envoyeza" placeholder="Téléphone">
+                    <input type="text" class="envoyeza" placeholder="Email">
+               
+            </div> 
+      </div>    
+    
+        <table id="js">
+            <tr> 
+                <th>Description</th> 
+                <th>Quantité</th> 
+                <th>Prix Unitaire</th> 
+                <th>Total</th>    
+            </tr>
+      
+            <tr class="tab"> 
+                <td><input type="text" class="description" name="description" placeholder="desc1"></td> 
+                <td><input type="text" class="input quantite" id="inputA" name="quantite" placeholder="0"></td> 
+                <td><input type="text" class="input prixunitaire" id="inputB" name="prixunitaire" placeholder="0"></td>
+                <td><input type="text" class="total" id="T1" name="total" readonly="readonly" placeholder="0"></td>
+            </tr>
+           
+            <tr>
+                <td><input type="text" class="description" name="description" placeholder="desc2"></td>
+                <td><input type="text" class="input quantite" id="inputC" name="quantite" placeholder="0"></td> 
+                <td><input type="text" class="input prixunitaire" id="inputD" name="prixunitaire" placeholder="0"></td>
+                <td><input type="text" class="total" id="T2" name="total" readonly="readonly" placeholder="0"></td>  
+            </tr>
+                
+            <tr class="tab" id="modeleLigne">
+                <td><input type="text" class="description" name="description" placeholder="desc3"></td>
+                <td><input type="text" class="input quantite" id="inputE" name="quantite" placeholder="0"></td> 
+                <td><input type="text" class="input prixunitaire" id="inputF" name="prixunitaire" placeholder="0"></td>
+                <td><input type="text" class="total" id="T3" name="total" readonly="readonly" placeholder="0" ></td> 
+            </tr>
+            
+            <tr class="tab lasttab" id="lligne">
+                <td><input type="text" class="description"  name="description" placeholder="desc4"></td>
+                <td><input type="text" class="input quantite" id="inputG" name="quantite" placeholder="0"></td> 
+                <td><input type="text" class="input prixunitaire" id="inputI" name="prixunitaire" placeholder="0"></td>
+                <td><input type="text" class="total" id="T4" name="total" readonly="readonly" placeholder="0"></td> 
+            </tr>    
+                
+        </table>
+      
+      <p class="remarque">Remarques, notes et instructions de paiement.</p>
+      
+      <div class="bd">
+          Sous-total : <input type="text" class="solde" id="ST" placeholder="en €"> <br> <br>
+          Remises : <input type="text" class="solde" id="Re" placeholder="en %"> <br> <br>
+          Sous-total moins les remises : <input type="text" class="solde" id="STM" placeholder="en €"> <br> <br>
+          Taux d'imposition : <input type="text" class="solde" id="TI" placeholder="en %"> <br> <br>
+          Taux totale : <input type="text" class="solde" id="Tt" placeholder=""> <br> <br>
+          Expidito, manutention : <input type="text" class="solde" id="E_M" placeholder="en €"> <br> <br>
+      
+          <h3> Solde du : <input type="text" class="solde" id="SOL" readonly="readonly" underline> </h3>
+      </div>
+<br><br>
+      <div class="buttonjs">  
+        <input type="button" name="text" class="azer" onclick="Calculer()" value="Calculer">
+        <input type="button" name="text" class="azer" onclick="ajouterLigne()" value="Ajouter une ligne">
+        <input type="button" name="text" class="azer" onclick="remplir()" value="Remplir automatiquement">
+        <input type="reset" class="azer" value="Annuler">
+
+      </div>
+      </form>
+    
+  </body>
+</html>
