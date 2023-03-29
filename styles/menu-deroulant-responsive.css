@@ -60,8 +60,8 @@ nav li:hover .submenu{
 	background-color: yellow;
 }
 .menu-base:hover{
-	border-top: 5px solid #blue;
-	background-color: blue;
+	border-top: 5px solid skyblue;
+	background-color: skyblue;
 }
 .menu-php:hover{
 	border-top: 5px solid #green;
@@ -85,7 +85,7 @@ nav > ul > li:hover a{
 	background-color: yellow;
 }
 .menu-base .submenu{
-	background-color: blue;
+	background-color: skyblue;
 }
 .menu-php .submenu{
 	background-color: green;
@@ -107,7 +107,7 @@ nav > ul > li:hover a{
 	background-color: yellow;
 }
 .menu-base .submenu li:hover{
-	background-color: blue;
+	background-color: skyblue;
 }
 .menu-php .submenu li:hover{
 	background-color: green;
